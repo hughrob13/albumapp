@@ -3,13 +3,13 @@ import "firebase/auth";
 import "firebase/firestore";
 
 const config = {
-  apiKey: "AIzaSyD76g3n5X4Ll2GVaEb5Ds2vByHymWO8e88",
-  authDomain: "authentication-d0870.firebaseapp.com",
-  databaseURL: "https://authentication-d0870.firebaseio.com",
-  projectId: "authentication-d0870",
-  storageBucket: "authentication-d0870.appspot.com",
-  messagingSenderId: "1071599035383",
-  appId: "1:1071599035383:web:c31746fac99ec883"
+  apiKey: "AIzaSyDHZA3bfKU5GIBXT-g4dXGwEHmFsq2687M",
+  authDomain: "test-977cb.firebaseapp.com",
+  databaseURL: "https://test-977cb.firebaseio.com",
+  projectId: "test-977cb",
+  storageBucket: "",
+  messagingSenderId: "545874015188",
+  appId: "1:545874015188:web:c1e64fa2039e8b5bcedc41"
 };
 
 firebase.initializeApp(config);
