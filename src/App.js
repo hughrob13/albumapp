@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from "react";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import Paper from "@material-ui/core/Paper";
-import TextField from "@material-ui/core/TextField";
-import Button from "@material-ui/core/Button";
-import IconButton from "@material-ui/core/IconButton";
-import Drawer from "@material-ui/core/Drawer";
 import MenuIcon from "@material-ui/icons/Menu";
+import {
+  AppBar,
+  Button,
+  Drawer,
+  IconButton,
+  List,
+  ListItem,
+  ListItemText,
+  Paper,
+  TextField,
+  Toolbar,
+  Typography
+} from "@material-ui/core";
 import { Link, Route } from "react-router-dom";
 import { auth } from "./firebase";
 
@@ -223,7 +228,11 @@ export function App(props) {
           setDrawerOpen(false);
         }}
       >
-        <div>Hello</div>
+        <List>
+          <ListItem button>
+            <ListItemText primary="Home" />
+          </ListItem>
+        </List>
       </Drawer>
     </div>
   );
